@@ -4,6 +4,7 @@
 
 :root {
     --cor-primaria:linear-gradient(#000, #02082e);
+    --cor-secundaria-font:#000;
     --cor-secundaria:#f6f6f6;
     --cor-terciaria:#22d4fd;
     --cor-hover:#272727;
@@ -78,7 +79,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 2rem;
 }
 
 .apresentacao__links__subtitulo {
@@ -90,11 +91,11 @@ body {
 .apresentacao__links__navegacao {
     display: flex;
     justify-content: center;
-    gap: 16px;
+    gap: 1rem;
     border: 2px solid var(--cor-terciaria);
     width: 50%;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 1rem;
     font-size: 1.5rem;
     font-weight: 600;
     padding: 21.5px 0;
@@ -107,7 +108,6 @@ body {
     background-color: var(--cor-hover);
     color: var(--cor-terciaria);
     transition: 0.4s;
-    padding: 3.5% 1%;
 }
 
 .apresentacao__imagem {
@@ -116,7 +116,7 @@ body {
 }
 
 .rodape {
-    color: var(--cor-primaria);
+    color: var(--cor-secundaria-font);
     background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
