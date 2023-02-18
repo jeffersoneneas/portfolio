@@ -121,7 +121,7 @@ body {
     text-align: center;
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 .apresentacao__conteudo__texto a {
@@ -146,5 +146,10 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .rodape {
+        font-size: 1rem;
+        font-weight: bold;
     }
 }
