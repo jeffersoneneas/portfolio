@@ -7,23 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+
+    </script>
 </head>
 
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            <a class="cabecalho__menu__link" href="#contato"">Contato</a>
+            <a class=" cabecalho__menu__link" href="#projetos">Projetos</a>
         </nav>
     </header>
-    <main class="apresentacao">
+    <div class="banner apresentacao">
         <section class="apresentacao__conteudo">
-            <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Sobre mim</strong></h1>
-            <p class="apresentacao__conteudo__texto">Olá! Sou Jefferson Eneas da Silva, desenvolvedor Front-end com
-                especialidade em <span>HTML, CSS e JavaScript. Sinta-se livre para me acompanhar e entrar em contato
-                    comigo! </span></p>
+            <h1 class="apresentacao__conteudo__titulo">Olá, me chamo<strong class="titulo-destaque"> Jefferson
+                    Eneas</strong></h1>
+            <p class="apresentacao__conteudo__texto"><strong class="titulo-destaque"></strong>Sou desenvolvedor
+                Front-end com
+                especialidade em <span class="titulo-destaque">HTML, CSS e JavaScript</span> e estudante de <span
+                    class="titulo-destaque">Análise e desenvolvimento de sistemas. </span>Estou em constante aprendizagem e em busca de oportunidades para aprimorar meus conhecimentos.</p>
+        </section>
+        <img class="apresentacao__imagem" src="img/avatar.png" alt="Foto de Jefferson sorrindo">
+    </div>
+    <hr>
+    <main class="apresentacao" id="contato">
+        <section class="apresentacao__conteudo">
+
             <div class="apresentacao__links">
-                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+                <h1 class="apresentacao__conteudo__titulo"><strong class="titulo-destaque">Minhas redes:</strong></h1>
                 <a class="apresentacao__links__navegacao" target="_blank" href="https://github.com/jeffersoneneas"><i
                         class="bi bi-github"></i> GitHub</a>
                 <a class="apresentacao__links__navegacao" target="_blank"
@@ -32,18 +44,66 @@
             </div>
             <div class="apresentacao__links">
                 <h2 class="apresentacao__links__subtitulo">Contato:</h2>
-                <a class="apresentacao__links__navegacao" target="_blank" href="https://github.com/jeffersoneneas"><i
+                <a class="apresentacao__links__navegacao" target="_blank" href="mailto:jeffersoneneassilva@gmail.com"><i
                         class="bi bi-envelope-fill"></i> Email</a>
-                <a class="apresentacao__links__navegacao" target="_blank"
-                    href="https://www.linkedin.com/in/jefferson-eneas-da-silva-621421250/"><i
-                        class="bi bi-phone"></i>Telefone</a>
+                <a class="apresentacao__links__navegacao" target="_blank" href="https://wa.me/27997532888"><i
+                        class="bi bi-whatsapp"></i>Whats/tel</a>
             </div>
         </section>
         <img class="apresentacao__imagem" src="img/face-jefferson.jpeg" alt="Foto de Jefferson sorrindo">
     </main>
+    <hr id="projetos">
+    <article class="projetos">
+        <h1 class="apresentacao__conteudo__titulo titulo-destaque">Projetos</h1>
+
+        <img class="apresentacao__imagem projetos__img" src="img/loja de sapatos.png" alt="projeto loja de sapatos">
+        <div>
+            <a class="botao__projetos" target="_blank"
+                href="https://github.com/jeffersoneneas/loja-virtual-bootstrap5"><i class="bi bi-github""></i></a>
+            <a class=" botao__projetos" target="_blank"
+                    href="https://jeffersoneneas.github.io/loja-virtual-bootstrap5/"><i class="bi bi-globe"></i></a>
+        </div>
+
+        <img class="apresentacao__imagem projetos__img" src="img/projeto-android.png"
+            alt="foto de um projeto falando sobre o android">
+        <div>
+            <a class="botao__projetos" target="_blank" href="https://github.com/jeffersoneneas/projeto-android"><i
+                    class="bi bi-github"></i></a>
+            <a class="botao__projetos" target="_blank" href="https://jeffersoneneas.github.io/projeto-android/"><i
+                    class="bi bi-globe"></i></a>
+        </div>
+
+        <img class="apresentacao__imagem projetos__img" src="img/quitando-projeto.png" alt="foto de uma quitanda">
+        <div>
+            <a class="botao__projetos" target="_blank"
+                href="https://github.com/jeffersoneneas/Quitanda-Online-Bootstrap5"><i class="bi bi-github"></i></a>
+            <a class="botao__projetos" target="_blank"
+                href="https://jeffersoneneas.github.io/Quitanda-Online-Bootstrap5/"><i class="bi bi-globe"></i></a>
+        </div>
+
+        <img class="apresentacao__imagem projetos__img" src="img/projeto-nerdbooks.png" alt="">
+        <div>
+            <a class="botao__projetos" target="_blank" href="https://github.com/jeffersoneneas/nerd-book"><i
+                    class="bi bi-github"></i></a>
+            <a class="botao__projetos" target="_blank" href="https://nerd-book.vercel.app/"><i
+                    class="bi bi-globe"></i></a>
+        </div>
+
+        <img class="apresentacao__imagem projetos__img" src="img/portfolio-projeto.png" alt="site de fortfólio projeto">
+        <div>
+            <a class="botao__projetos" target="_blank" href="https://github.com/jeffersoneneas/projeto-portfolio"><i
+                    class="bi bi-github"></i></a>
+            <a class="botao__projetos" target="_blank" href="https://jeffersoneneas.github.io/projeto-portfolio/"><i
+                    class="bi bi-globe"></i></a>
+        </div>
+
+    </article>
+
     <footer class="rodape">
         <p>Desenvolvido por Jefferson Eneas da Silva.</p>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
